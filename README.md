@@ -11,12 +11,7 @@ Current KLE Designs:
 * The "Paste" function key takes the current value and:
     * Pastes the numeric text into the data stream of the keyboard and onto the computer, and
     * exits Calculator mode.
-* Expecting to hand-wire it.
-* Geekhack [macropad project](https://geekhack.org/index.php?topic=85874.0) -- no display.
-* Arduino [trivial calculator](http://www.microcontroller-project.com/calculator-with-pic16f877-microcontroller.html) with 16x2 screen
-* [Quick Key Adapter, 10 Button
-Keyboard](http://www.instructables.com/id/Quick-Key-Adapter-10-Button-HID-
-Keyboard/) PIC18F14K50. Complete parts kit: $25.00 (sold out) Programable w/Modifier keys.
+* Expecting to hand-wire it, but TBD.
 * For full matrix would need this I/O:
     * USB
     * 10 pins = 6 x 4 matrix
@@ -27,11 +22,28 @@ Keyboard/) PIC18F14K50. Complete parts kit: $25.00 (sold out) Programable w/Modi
 
 ## Features
 * Unary operators:
-    1/x, √, M+, M-, M store, M recall
+    1/x, √, M+, M-, M store, M recall, CL X
 * Binary operators:
-    + -, *, /, CL X
+    \+ -, *, /
 * Others:
     x <==> y, rotate, Clear (all), Backspace, +/-, E EX, Paste, Enter
+* Modes: Hex/Decimal would be nice.
+* Stack (at least 3 level)
+* Memory (up to 10 addressable). M Store + #, where # is from 0 to 9, stores X into that memory. M Recall, # likewise.
+* M Recall repeated could scroll through the stored addresses
+
+## Useful Similar Projects:
+
+* Geekhack [macropad project](https://geekhack.org/index.php?topic=85874.0) -- no display.
+* Arduino [trivial calculator](http://www.microcontroller-project.com/calculator-with-pic16f877-microcontroller.html) with 16x2 screen
+* [Full, scientific, RPN](https://forum.arduino.cc/index.php?topic=388331.0)
+Arduino calculator. Simple(?) to wire? 64 bit floating point, battery powered.
+Two line, about 16 character, green (LED?) display. Small keys, Hex/Decimal
+modes, compiled to 32K on a 328p so no room for a boot loader.
+* [Arduino LDC + 16
+keys](https://www.allaboutcircuits.com/projects/simple-arduino-based-calculator/). 
+Breadboarded. Used an UNO and LCD1602A display. 4 x 4 (16) keys. Integer arithmetic.
+Pointer to: [BigNumber Library](http://www.gammon.com.au/forum/?id=11519)
 
 
 ## Resources
