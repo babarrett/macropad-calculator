@@ -48,6 +48,8 @@ Pointer to: [BigNumber Library](http://www.gammon.com.au/forum/?id=11519)
 
 ## Resources
 
+* newegg Kensington K72274US (calculator 12 digit, one line, 19-key pad, 12
+small keys, USB hub, +2 ports) [Manual](https://accoblobstorageus.blob.core.windows.net/literature/1393.pdf)
 * 22-key pad, metal, USB, without display, available @ Amazon, $22:
     https://www.amazon.com/Jelly-Comb-Responsive-Mechanical-Notebook/dp/B075NZBHY4/ref=sr_1_7
 * H4JO 22 Key Numeric Keypad, Ice Blue, no display. Also $14.00 @ Wallmart:
